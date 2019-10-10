@@ -1,0 +1,31 @@
+.header ul{
+    display: flex;
+    color: #0a1128;
+    border: 1px solid black;
+    height: 30px;
+    width: 500px;
+    margin-left: 100px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 0px;
+    box-shadow: 0px 3px 1px 1px;
+   
+}
+li{
+    margin-left: 0px;
+    cursor: pointer;
+    width: 100px;
+    text-decoration: none;
+    list-style: none;
+}
+li:hover {
+    background: rgba(255, 255, 255, 0.884);
+    color: rgba(39, 87, 39, 0.959);
+    transform: rotate(360deg);
+    cursor: pointer;
+    border-bottom: 3px solid red;
+  }
+  /* .header_nav{
+      position:fixed;
+      margin-bottom: 50px;
+  } */
